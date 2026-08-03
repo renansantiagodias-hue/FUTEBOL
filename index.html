@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -10,35 +9,75 @@
 <body>
 
     <header>
-        <h1>Paixão pelo Futebol ⚽</h1>
-        <p>Acompanhe momentos e imagens incríveis do esporte!</p>
+        <h1>⚽ Paixão Futebol</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <section class="galeria-container">
-            <h2>Galeria de Fotos</h2>
-            
-            <button id="btn-carregar">Carregar Mais Imagens</button>
+    <section id="inicio" class="hero">
+        <h2>O melhor do futebol em um só lugar</h2>
+        <p>Acompanhe os momentos mais marcantes do esporte rei.</p>
+    </section>
 
-            <div id="galeria" class="galeria">
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500" alt="Bola de futebol no campo">
-                    <p>Campo de Futebol</p>
-                </div>
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=500" alt="Chuteira e bola">
-                    <p>Hora do Jogo</p>
-                </div>
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=500" alt="Estádio lotado">
-                    <p>Estádio</p>
+    <main id="galeria">
+        <h2>Galeria de Fotos</h2>
+        <div class="grid-galeria">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=600&q=80" alt="Estádio de futebol lotado">
+                <div class="card-info">
+                    <h3>A Energia da Torcida</h3>
+                    <p>A energia da torcida é, sem dúvida, o coração do futebol! É o que transforma uma simples partida em um espetáculo inesquecível.
+
+Aqui estão alguns elementos que fazem a força das arquibancadas ser tão única:
+
+Mosaicos e Bandeirões: Cenas visuais incríveis montadas pelos torcedores que cobrem setores inteiros do estádio antes de o jogo começar.
+
+Cânticos e Bateria: O ritmo constante das organizadas que empurra o time do primeiro ao último minuto, independentemente do placar.
+
+Festa com Sinalizadores e Fumaça: As cores do clube tomando conta das arquibancadas na recepção dos jogadores.
+
+A Conexão no Gol: A explosão coletiva no momento do gol, onde desconhecidos se abraçam como se fossem velhos amigos.
+
+Deseja adicionar uma seção especial sobre torcidas no código do site ou criar um carrossel de fotos focado na festa das arquibancadas?.</p>
+                    <button class="btn-curtir">❤️ <span class="contador">0</span></button>
                 </div>
             </div>
-        </section>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=600&q=80" alt="Bola de futebol em campo de grama">
+                <div class="card-info">
+                    <h3>A Estrela do Jogo</h3>
+                    <p>Em cada partida de futebol, entre os 22 jogadores que entram em campo, há sempre um destino traçado para quem assume o protagonismo. A Estrela do Jogo não é apenas o atleta que balança as redes; é aquele que transforma o ritmo da partida, toma decisões sob pressão e carrega a esperança da torcida nas chuteiras.</p>
+                    <button class="btn-curtir">❤️ <span class="contador">0</span></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=600&q=80" alt="Chuteira e bola no campo">
+                <div class="card-info">
+                    <h3>Preparação e Foco</h3>
+                    <p>O sucesso dentro de campo nasce muito antes do apito inicial. Grande parte do desempenho de um atleta depende do trabalho invisível feito nos bastidores:
+
+Corpo e Métrica: Treinos físicos diários, alimentação regrada e descanso adequado para suportar a alta intensidade dos 90 minutos.
+
+Estratégia: Análise de vídeos do adversário e repetição de táticas até que cada movimento se torne automático.
+
+Mente Blindada: Controle do nervosismo, capacidade de superar erros no jogo e foco total sob a pressão do estádio lotado./p>
+                    <button class="btn-curtir">❤️ <span class="contador">0</span></button>
+                </div>
+            </div>
+
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 - Projeto Futebol</p>
+        <p>&copy; 2026 Paixão Futebol - Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
